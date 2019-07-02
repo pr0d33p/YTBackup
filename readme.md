@@ -25,13 +25,13 @@ git clone https://github.com/askbuddie/YTBackup.git
 * you also have to install the dependencies for running YTBackup by running
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 * when you have the **YTbackup.py** file. simply run the .py file in terminal and you will be prompted to add some info about the file path / folder path. just follow the steps
 
 ```bash
->> D:\CAM Files\Python\OS>YTBackup.py --backup
+>> D:\CAM Files\Python\OS>python3 YTBackup.py --backup
 ```
 
 now YTBackup.py expects an arguments to be passed which defines what proccess you are doing, **restore** or **backup**.
